@@ -1,81 +1,84 @@
-# 📦 Dashboard Logístico en Excel (2019–2021)
+# 📦 Proyecto Logístico | Análisis en Excel (2019–2021)
 
-Este proyecto fue desarrollado en **Excel 2019** con el objetivo de analizar el desempeño logístico por cliente, motorista y motivo de devolución, utilizando una base de datos ficticia. Es una solución completa que incluye limpieza de datos, análisis dinámico y automatización para facilitar la toma de decisiones basada en datos.
+Este proyecto se desarrolló en **Excel 2019** con el objetivo de analizar el desempeño logístico entre los años 2019 y 2021. Incluye limpieza de datos, análisis dinámico, visualización interactiva y automatización mediante una macro para actualizar fácilmente los resultados.
 
----
-
-## 🎯 Objetivos
-
-- Identificar cuellos de botella logísticos y oportunidades de mejora.
-- Visualizar indicadores clave como pedidos, devoluciones, facturación y OTIF.
-- Facilitar el seguimiento mensual mediante automatización con macros.
+Es ideal para quienes buscan una solución completa para analizar pedidos, facturación, devoluciones y desempeño OTIF de forma visual y eficiente.
 
 ---
 
-![Dashboard Logístico](https://drive.google.com/uc?export=view&id=1zFl59Dl9JOkraw9OQtq3RObTTL_yyugf)
+## 📌 Objetivos
+
+- Analizar la evolución de pedidos, facturación y devoluciones.
+- Visualizar los indicadores clave del área logística.
+- Identificar cuellos de botella y oportunidades de mejora.
+- Automatizar la actualización de datos y visualizaciones con un solo clic.
 
 ---
 
-## 📁 Archivos del proyecto
+## 📷 Captura del dashboard
 
-| Carpeta       | Contenido                                                                 |
-|---------------|---------------------------------------------------------------------------|
-| `dataset/`    | Contiene el archivo Excel con las siguientes hojas:                      |
-|               | - `datos_crudos`: datos originales sin tratar                            |
-|               | - `datos_limpios`: datos normalizados para análisis                      |
-|               | - `ejercicio`: tabla resumen con cálculos intermedios                   |
-|               | - `datos_para_actualizar`: origen para tablas dinámicas                  |
-|               | - `dashboard`: panel visual con KPIs y segmentadores interactivos        |
-| `dashboard/`  | Captura del dashboard final en formato PNG                               |
-| `video/`      | Video de navegación mostrando cómo se actualiza el dashboard con macros  |
+![Dashboard logístico](https://drive.google.com/uc?id=1zFl59Dl9JOkraw9OQtq3RObTTL_yyugf)
 
 ---
 
-## 🛠️ Herramientas utilizadas
+## 🧩 Estructura del archivo Excel (`dataset_logistica_base.xlsx`)
 
-- Tablas dinámicas
-- Segmentaciones de datos
-- Gráficos dinámicos y combinados
-- Funciones estadísticas
-- Macro con botón "Actualizar" para automatizar actualizaciones
+| Hoja                   | Descripción                                                                 |
+|------------------------|-----------------------------------------------------------------------------|
+| `datos_crudos`         | Datos originales sin tratar.                                                |
+| `datos_limpios`        | Datos tratados y normalizados para análisis.                               |
+| `ejercicio`            | Tabla resumen con KPIs e indicadores calculados.                           |
+| `datos_para_actualizar`| Fuente dinámica conectada a tablas dinámicas y gráficos.                   |
+| `dashboard`            | Panel visual interactivo con segmentaciones, gráficos y KPIs.              |
+
+---
+
+## 🔄 Automatización con Macro
+
+Se incorporó un **botón llamado "Actualizar"** que permite actualizar automáticamente todas las tablas dinámicas, gráficos y visualizaciones del dashboard al cargar nuevos datos.  
+Esto evita tareas repetitivas y mejora la eficiencia al presentar reportes en reuniones mensuales o seguimientos periódicos.
 
 ---
 
 ## 🔍 Insights destacados
 
-- **Rappi** fue el cliente con más pedidos y facturación, pero también el que más devoluciones generó.
-- El indicador **OTIF** (entregas a tiempo y completas) fue solo del **27%**, lo que señala incumplimientos frecuentes en las entregas. Esto amerita investigar causas internas y externas del retraso.
-- Las devoluciones más comunes fueron por **producto equivocado** y **productos dañados**, lo que sugiere mejoras en procesos de picking y control de calidad.
-- En **2021** se observó un pico de facturación que podría estar relacionado con estacionalidad o una expansión del servicio.
+- **Rappi** fue el cliente con mayor volumen de pedidos y facturación, pero también con el mayor número de devoluciones.
+- El indicador **OTIF** (entregas a tiempo y completas) alcanzó solo un **27%**, lo cual sugiere fallas en el cumplimiento logístico que merecen ser analizadas en profundidad.
+- Las devoluciones más frecuentes fueron por **producto equivocado** y **productos dañados**, lo que podría estar relacionado con errores en picking, embalaje o transporte.
+- El año **2021** mostró un incremento notable en la facturación, posiblemente vinculado a una expansión operativa o a factores estacionales.
 
 ---
 
-## ⚙️ Automatización con Macro
+## 🧰 Herramientas utilizadas
 
-Se incorporó un **botón llamado "Actualizar"** que automatiza la actualización de todas las tablas dinámicas, gráficos y visualizaciones del dashboard al cargar nuevos datos. Esto elimina tareas manuales repetitivas y acelera el armado de reportes mensuales, especialmente útil para reuniones de seguimiento y toma de decisiones ágiles.
-
----
-
-## ▶️ Visualización del proyecto
-
-- 🖼️ Captura del dashboard: [Ver imagen](https://drive.google.com/file/d/1zFl59Dl9JOkraw9OQtq3RObTTL_yyugf/view?usp=drive_link)
-- 📂 Dataset Excel: [Descargar](https://drive.google.com/file/d/1OroZw4tCp0S1DX3iEOKyyf9cxS9Uv-0h/view?usp=drive_link)
-- 🎥 Video demostración: [Ver video](https://drive.google.com/file/d/1-OMV0jt1DdkUVeNNQ4fD6KKQ6DkVVEz9/view?usp=drive_link)
+- Excel 2019
+- Tablas dinámicas
+- Gráficos combinados
+- Segmentaciones de datos
+- Funciones estadísticas
+- Diseño visual orientado a la toma de decisiones
+- Macro con botón personalizado
 
 ---
 
-## 📊 Otros proyectos disponibles
+## 📎 Recursos del proyecto
 
-También podés encontrar dashboards de otras áreas como **ventas** y **producción** en mi perfil de GitHub:  
+- 📁 Archivo Excel: [Descargar dataset](https://drive.google.com/file/d/1OroZw4tCp0S1DX3iEOKyyf9cxS9Uv-0h/view?usp=drive_link)
+- 📷 Captura del dashboard: [Ver imagen](https://drive.google.com/file/d/1zFl59Dl9JOkraw9OQtq3RObTTL_yyugf/view?usp=drive_link)
+- 🎥 Video de navegación + macro: [Ver video](https://drive.google.com/file/d/1-OMV0jt1DdkUVeNNQ4fD6KKQ6DkVVEz9/view?usp=drive_link)
+
+---
+
+## 📚 Otros proyectos en mi perfil
+
+Este análisis logístico se suma a otros desarrollos que vengo trabajando en Excel, como:
+
+- Proyectos de **ventas**
+- Proyectos de **producción**
+
+Podés explorarlos todos en mi repositorio:  
 🔗 [https://github.com/romina-abud?tab=repositories](https://github.com/romina-abud?tab=repositories)
+Estoy abierta a nuevas oportunidades y desafíos profesionales.
 
----
-
-## 🤝 Conectemos
-
-¿Tenés un proyecto similar? ¿Querés intercambiar ideas o trabajar en equipo?  
-Estoy abierta a nuevas oportunidades y colaboraciones.  
-
-📩 [Mi perfil de LinkedIn](https://www.linkedin.com/in/romina-abud/)  
+📩 [Mi perfil en LinkedIn](https://www.linkedin.com/in/romina-abud/)  
 📧 romina.abud@gmail.com
-
