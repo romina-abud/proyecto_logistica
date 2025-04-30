@@ -1,7 +1,5 @@
 # 📦 Dashboard Logístico en Excel (2019–2021)
 
-![Dashboard Logístico](dashboard/dashboard_logistica.png)
-
 Este proyecto fue desarrollado en **Excel 2019** con el objetivo de analizar el desempeño logístico por cliente, motorista y motivo de devolución, utilizando una base de datos ficticia. Es una solución completa que incluye limpieza de datos, análisis dinámico y automatización para facilitar la toma de decisiones basada en datos.
 
 ---
@@ -11,6 +9,10 @@ Este proyecto fue desarrollado en **Excel 2019** con el objetivo de analizar el 
 - Identificar cuellos de botella logísticos y oportunidades de mejora.
 - Visualizar indicadores clave como pedidos, devoluciones, facturación y OTIF.
 - Facilitar el seguimiento mensual mediante automatización con macros.
+
+---
+
+![Dashboard Logístico](https://drive.google.com/uc?export=view&id=1zFl59Dl9JOkraw9OQtq3RObTTL_yyugf)
 
 ---
 
@@ -42,21 +44,21 @@ Este proyecto fue desarrollado en **Excel 2019** con el objetivo de analizar el 
 ## 🔍 Insights destacados
 
 - **Rappi** fue el cliente con más pedidos y facturación, pero también el que más devoluciones generó.
-- El indicador **OTIF** (entregas a tiempo y completas) fue solo del **27%**, lo que indica un problema de cumplimiento que requiere revisión de procesos y causas específicas de demoras.
-- Las devoluciones más comunes fueron por **producto equivocado** y **productos dañados**, lo que sugiere posibles mejoras en control de calidad.
-- En **2021** se observó un pico de facturación que podría estar relacionado con estacionalidad o crecimiento operativo.
+- El indicador **OTIF** (entregas a tiempo y completas) fue solo del **27%**, lo que señala incumplimientos frecuentes en las entregas. Esto amerita investigar causas internas y externas del retraso.
+- Las devoluciones más comunes fueron por **producto equivocado** y **productos dañados**, lo que sugiere mejoras en procesos de picking y control de calidad.
+- En **2021** se observó un pico de facturación que podría estar relacionado con estacionalidad o una expansión del servicio.
 
 ---
 
 ## ⚙️ Automatización con Macro
 
-Se incorporó un **botón llamado "Actualizar"** que permite actualizar automáticamente todas las tablas dinámicas, gráficos y visualizaciones del dashboard tras cargar nuevos datos. Esto elimina tareas repetitivas y agiliza la entrega de resultados, ideal para reuniones mensuales o reportes ejecutivos.
+Se incorporó un **botón llamado "Actualizar"** que automatiza la actualización de todas las tablas dinámicas, gráficos y visualizaciones del dashboard al cargar nuevos datos. Esto elimina tareas manuales repetitivas y acelera el armado de reportes mensuales, especialmente útil para reuniones de seguimiento y toma de decisiones ágiles.
 
 ---
 
 ## ▶️ Visualización del proyecto
 
-- 🖼️ Captura del dashboard: [Ver imagen](https://drive.google.com/file/d/1htT7G8iI18H4098mkuwK3SfwzZkSRAa0/view?usp=drive_link)
+- 🖼️ Captura del dashboard: [Ver imagen](https://drive.google.com/file/d/1zFl59Dl9JOkraw9OQtq3RObTTL_yyugf/view?usp=drive_link)
 - 📂 Dataset Excel: [Descargar](https://drive.google.com/file/d/1OroZw4tCp0S1DX3iEOKyyf9cxS9Uv-0h/view?usp=drive_link)
 - 🎥 Video demostración: [Ver video](https://drive.google.com/file/d/1-OMV0jt1DdkUVeNNQ4fD6KKQ6DkVVEz9/view?usp=drive_link)
 
@@ -76,3 +78,4 @@ Estoy abierta a nuevas oportunidades y colaboraciones.
 
 📩 [Mi perfil de LinkedIn](https://www.linkedin.com/in/romina-abud/)  
 📧 romina.abud@gmail.com
+
