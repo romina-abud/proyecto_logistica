@@ -78,6 +78,12 @@ Este análisis logístico se suma a otros desarrollos que vengo trabajando en Ex
 
 Podés explorarlos todos en mi repositorio:  
 🔗 [https://github.com/romina-abud?tab=repositories](https://github.com/romina-abud?tab=repositories)
+
+---
+
+## 🤝 Contacto
+
+¿Querés colaborar, tenés un proyecto parecido o simplemente te interesa intercambiar ideas?  
 Estoy abierta a nuevas oportunidades y desafíos profesionales.
 
 📩 [Mi perfil en LinkedIn](https://www.linkedin.com/in/romina-abud/)  
