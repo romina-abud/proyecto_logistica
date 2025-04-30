@@ -1,5 +1,7 @@
 # 📦 Dashboard Logístico en Excel (2019–2021)
 
+![Dashboard Logístico](dashboard/dashboard_logistica.png)
+
 Este proyecto fue desarrollado en **Excel 2019** con el objetivo de analizar el desempeño logístico por cliente, motorista y motivo de devolución, utilizando una base de datos ficticia. Es una solución completa que incluye limpieza de datos, análisis dinámico y automatización para facilitar la toma de decisiones basada en datos.
 
 ---
@@ -40,7 +42,7 @@ Este proyecto fue desarrollado en **Excel 2019** con el objetivo de analizar el 
 ## 🔍 Insights destacados
 
 - **Rappi** fue el cliente con más pedidos y facturación, pero también el que más devoluciones generó.
-- El indicador **OTIF** (entregas a tiempo y completas) fue solo del **27%**, lo que indica un problema de cumplimiento que requiere revisión de procesos.
+- El indicador **OTIF** (entregas a tiempo y completas) fue solo del **27%**, lo que indica un problema de cumplimiento que requiere revisión de procesos y causas específicas de demoras.
 - Las devoluciones más comunes fueron por **producto equivocado** y **productos dañados**, lo que sugiere posibles mejoras en control de calidad.
 - En **2021** se observó un pico de facturación que podría estar relacionado con estacionalidad o crecimiento operativo.
 
@@ -48,7 +50,7 @@ Este proyecto fue desarrollado en **Excel 2019** con el objetivo de analizar el 
 
 ## ⚙️ Automatización con Macro
 
-Se creó un **botón llamado "Actualizar"**, que permite refrescar automáticamente todas las tablas dinámicas, gráficos y visualizaciones del dashboard. Esta funcionalidad elimina tareas manuales y es ideal para preparar reportes periódicos, como reuniones mensuales o informes ejecutivos.
+Se incorporó un **botón llamado "Actualizar"** que permite actualizar automáticamente todas las tablas dinámicas, gráficos y visualizaciones del dashboard tras cargar nuevos datos. Esto elimina tareas repetitivas y agiliza la entrega de resultados, ideal para reuniones mensuales o reportes ejecutivos.
 
 ---
 
@@ -56,7 +58,7 @@ Se creó un **botón llamado "Actualizar"**, que permite refrescar automáticame
 
 - 🖼️ Captura del dashboard: [Ver imagen](https://drive.google.com/file/d/1htT7G8iI18H4098mkuwK3SfwzZkSRAa0/view?usp=drive_link)
 - 📂 Dataset Excel: [Descargar](https://drive.google.com/file/d/1OroZw4tCp0S1DX3iEOKyyf9cxS9Uv-0h/view?usp=drive_link)
-- 🎥 Video de navegación y actualización con macro: [Ver video](https://drive.google.com/file/d/1-OMV0jt1DdkUVeNNQ4fD6KKQ6DkVVEz9/view?usp=drive_link)
+- 🎥 Video demostración: [Ver video](https://drive.google.com/file/d/1-OMV0jt1DdkUVeNNQ4fD6KKQ6DkVVEz9/view?usp=drive_link)
 
 ---
 
@@ -69,7 +71,8 @@ También podés encontrar dashboards de otras áreas como **ventas** y **producc
 
 ## 🤝 Conectemos
 
-Si te interesa el análisis de datos, la automatización en Excel o tenés una idea para colaborar, ¡me encantaría conectar!
+¿Tenés un proyecto similar? ¿Querés intercambiar ideas o trabajar en equipo?  
+Estoy abierta a nuevas oportunidades y colaboraciones.  
 
 📩 [Mi perfil de LinkedIn](https://www.linkedin.com/in/romina-abud/)  
-📧 romina.abud@gmail.com  
+📧 romina.abud@gmail.com
